@@ -1,0 +1,281 @@
+*{
+  font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12px;
+}
+
+#corpo{
+  background-color: #000000;
+}
+
+.buscador{
+  display: flex;
+
+}
+.nave{
+  display: flex;
+  position: relative;
+  bottom: 250px;
+}
+
+
+
+#test {
+ position: relative;
+ left: 0px;
+ bottom: 290px;
+
+}
+
+
+#test a {
+  position: relative;
+  right: 12px;
+}
+
+
+#pesqunav {
+  position: relative;
+  width: 150px;
+  margin-bottom: 40px;
+}
+#pesqunava {
+  position: relative;
+  width: 150px;
+  margin-bottom: 1px;
+}
+
+#pesqunav img {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+}
+
+#pesqunav input {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-radius: 5px;
+  width: 150px;
+  height: 26px;
+  padding-left: 35px; /* Adiciona espaço para a imagem de lupa */
+  background-color: #00000000;
+  border: 1px solid #ced4da3f;
+  border-radius: 3px;
+}
+
+
+
+
+#pesqunav img {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+}
+
+#pesqunava input {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  padding-left: 35px; /* Adiciona espaço para a imagem de lupa */
+}
+
+img {
+  margin: 1px 18px 7px 7px;
+}
+
+#deslogado img {
+  margin: 1px;
+  padding-left: 5px;
+}
+
+#deslogado {
+  top: 57vh;
+}
+
+.sidebar .navbar-brand {
+  display: flex;
+  align-items: center;
+  top: 100px;
+
+}
+
+.sidebar .navbar-brand img {
+  max-width: 100%;
+  width: 41px;
+  height: auto;
+  /* right: 60px; */
+  position: relative;
+  margin: 15px 0px 50px 10px;
+}
+
+.sidebar .nav-link {
+  color: white; /* Cor do texto dos links */
+  display: block;
+  font-size: 11px; /* Tamanho da fonte */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo ao passar o mouse */
+
+}
+
+.sidebar .nav-link:hover {
+   /* Cor de fundo ao passar o mouse */
+  border-radius: 5px;
+  color: #28a745; 
+
+  border: 1px solid #28a745;
+  transition: 1ms;
+
+
+
+
+  
+   /* Padding adicional para o efeito de hover */
+}
+
+.sidebar .nav-dropdown .dropdown-menu {
+  background-color: #495057; /* Cor de fundo do dropdown */
+  border: none; /* Remove a borda padrão */
+}
+
+.sidebar .nav-dropdown .dropdown-item {
+  color: white; /* Cor do texto dos itens do dropdown */
+}
+
+.sidebar .nav-dropdown .dropdown-item:hover {
+  background-color: #6c757d;  /*Cor de fundo do item do dropdown ao passar o mouse */
+}
+
+/* Estilo para o botão de menu em telas pequenas */
+@media (max-width: 1000px) {
+  .sidebar {
+    width: 100px; /* Esconder a sidebar em telas pequenas por padrão */
+    overflow-x: hidden; /* Evitar rolagem horizontal */
+  }
+  .sidebar.open {
+    width: 220px; /* Largura quando o menu está aberto */
+  }
+}
+
+
+
+/***/
+
+/* table */
+
+
+#CentraTable {
+  margin: 20px;
+  width: 100%;
+
+}
+
+#CentraTable form {
+
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#formlar .form-control {
+  margin: 10px 0;
+}
+
+/* Tabela */
+.table-white {
+  background-color: #343A40;
+  border: 1px solid #ced4da3f;
+
+  
+}
+
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da3f;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+  
+
+  
+}
+
+.table td img {
+  cursor: pointer;
+}
+
+#edit {
+  background-color: transparent;
+  border: none;
+}
+
+#buscador {
+  display: grid;
+  grid-template-columns: 5fr 1fr; /* O input ocupa mais espaço que o botão */
+  gap: 10px; /* Espaço entre o input e o botão */
+  align-items: center; /* Centraliza verticalmente o botão e o input */
+}
+.form-select {
+  margin: 0px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* Estilo para centralizar o conteúdo */
+
+
+/* Estilo para o formulário */
+
+
+/* Estilo para o contêiner de busca e filtros */
+#buscador {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr 1fr;
+    gap: 10px; /* 4 colunas para distribuir os itens */
+  gap: 10px; /* Espaçamento entre os itens */
+  align-items: end; /* Alinhar verticalmente ao centro */
+
+}
+
+/* Estilo para o campo de pesquisa com lupa */
+
+
+/* Estilo para os campos de data */
+#data {
+  border: 1px solid #ced4da3f;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #121212;
+  padding: 3px;
+  color: rgba(255, 255, 255, 0.563);
+}
+
+
+/* Estilo para o botão */
+
+
+#tr:hover {
+  background-color: black !important;
+  cursor: pointer !important;
+}

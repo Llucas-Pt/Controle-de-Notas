@@ -1,0 +1,21 @@
+
+#pesqunava {
+    margin-bottom: 1px;
+  }
+
+
+div #corpo{
+  height: 100vh;
+}
+
+.modal-dialog{
+  color: black;
+}
+
+#buscadorr {
+  display: grid;
+  grid-template-columns: 0fr 2fr 2fr 1fr;
+    gap: 10px; /* 4 colunas para distribuir os itens */
+  gap: 10px; /* Espaçamento entre os itens */
+ 
+}

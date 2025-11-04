@@ -1,0 +1,72 @@
+.cadastro-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    background-color: #0B0D0E;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 1rem;
+  }
+
+
+  
+  .form-container form div input{
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .form-container input {
+    width: 200%;
+    padding: 0.5rem;
+    border: 1px solid #cccccc50;
+    border-radius: 4px;
+    background-color: #ffffff00;
+  }
+  
+  .form-container button {
+    width: 200%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0057b378;
+  }
+  
+  .form-container p {
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+  }
+  
+  .image-container img {
+    flex: 1; /* Ocupa todo o lado direito */
+    height: 100%; /* Cobre toda a altura do lado direito */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer */
+  }
+  
+  .message {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  #jatemconta{
+    color: rgba(19, 76, 231, 0.905);
+  }

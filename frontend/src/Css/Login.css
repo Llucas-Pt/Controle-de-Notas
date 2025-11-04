@@ -1,0 +1,117 @@
+/* Estilos gerais */
+.login-container {
+  display: flex;
+  height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+/* Classe paa centralizar o spinner */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura da tela inteira */
+  width: 100vw; /* Largura da tela inteira */
+  position: fixed; /* Fixa no viewport */
+  top: 0;
+  left: 0;
+  background-color: #0B0D0E; /* Fundo semi-transparente opcional */
+  z-index: 9999; /* Coloca acima de outros elementos */
+}
+
+/* Classe para esconder o spinner */
+.loading-hidden {
+  display: none;
+}
+
+
+#LoginForm {
+  flex: 1; /* Ocupa o lado esquerdo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza o formulário verticalmente */
+  align-items: center; /* Centraliza o formulário horizontalmente */
+  background-color: #0B0D0E; /* Cor de fundo para o lado esquerdo */
+  padding: 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.021); /* Sombra no lado esquerdo */
+}
+
+#LoginForm h2 {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+
+
+#LoginForm input::placeholder {
+  color: rgba(255, 255, 255, 0.26); /* Cor personalizada */ /* Exemplo de estilo adicional */
+}
+
+
+#LoginForm button {
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#LoginForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para a imagem */
+.login-container img {
+  flex: 1; /* Ocupa todo o lado direito */
+  height: 100%; /* Cobre toda a altura do lado direito */
+  width: 800px;
+  object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer */
+}
+
+
+#loginimagem img {
+  margin: 0px;
+
+}
+
+
+.login-divider {
+  border: none;
+  border-top: 2px solid #e9ecefb7;
+  width: 25%;
+ 
+
+}
+
+
+#labelLogin{
+  color: white;
+}
+
+#Criacao{
+  border: none;
+  text-align: none;
+  align-items: none;
+}
+
+
+
+
+#LoginForm input {
+background-color: #0b0d0e02;
+color: white;
+border-color: rgba(255, 255, 255, 0.274);
+ 
+}
+
+#lembrarsenha span {
+  color: rgba(255, 255, 255, 0.877);
+  margin-top: 10px;
+}
+
+#lembrarsenha input {
+  margin-right: 10px;
+}
+
+a{
+  
+  text-decoration: none;
+}

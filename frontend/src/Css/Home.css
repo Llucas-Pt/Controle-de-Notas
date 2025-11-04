@@ -1,0 +1,108 @@
+.sidebar {
+  width: 220px;
+  height: 98vh;
+  color: white;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+  box-shadow: 1px 1px black;
+  border-right: 1px solid #ffffff42;
+  background-color: #0b0f11;
+  border-radius: 9px;
+  margin: 10px 0px;
+}
+  
+
+
+#formulario {
+  padding: 5% 5% 5% 5%;
+  width: 150%;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  border-radius: 10px;
+  margin: 10% 0px 0px 0px;
+  color: white;
+  background-color: #0b0f11;
+  }
+  
+  
+#formulario input{
+
+color: rgb(255, 255, 255);
+background-color: #0b0f11;
+border: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+
+
+#formulario textarea {
+    color: white;
+    background-color: #0b0f11;
+    border: 1px solid rgba(255, 255, 255, 0.274);
+}
+  
+  #formulario select {
+    color: white;
+    background-color: #0b0f11;
+    border: 1px solid rgba(255, 255, 255, 0.274);
+  }
+
+  #formulario input placeholder {
+    color: rgb(255, 255, 255);
+    background-color: #0b0f11;
+  }
+  
+
+  form div input {
+    font-size: small !important;
+  }
+  form div select option {
+    font-size: small !important;
+  }
+  
+  form div select {
+    font-size: small !important;
+  }
+  
+  form div label {
+    font-size: small !important;
+  }
+
+  #outro {
+    position: relative;
+    left: 15%;
+   }
+
+   #test {
+    position: relative;
+    left: 0px;
+    bottom: 280px;
+   
+   }
+   
+
+   #pesqunava {
+    position: relative;
+    width: 150px;
+   
+
+  
+  }
+  
+  #pesqunava img {
+    position: absolute;
+    left: 0px;
+    top: 46%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+  }
+  
+  #pesqunava input {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 28px;
+    padding-left: 35px; /* Adiciona espaço para a imagem de lupa */
+  }
+  

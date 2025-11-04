@@ -1,0 +1,137 @@
+/* Estilização para o conteúdo principal */
+.container {
+    max-width: 640px;
+    margin: 195px auto;
+    padding: 45px;
+    background-color: #0b0f11;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: space-between; /* Deixa espaço entre o conteúdo e os botões */
+    height: 500px; /* Define uma altura fixa para o formulário */
+}
+
+.container h3 {
+    font-size: 20px; /* Reduz o tamanho do título */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+.centra {
+display: flex;
+flex-direction: column;
+}
+
+.upload-area {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #1a1f22;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: auto; /* Isso empurra a área de upload para o topo */
+ 
+}
+
+.upload-area:hover {
+    background-color: #2a3135; /* Fundo muda ao passar o mouse */
+}
+
+.upload-label {
+    cursor: pointer;
+    font-size: 14px; /* Reduz o tamanho do texto */
+    color: #c4c4c4; /* Cor do texto */
+}
+
+.upload-input {
+    cursor: pointer;
+    display: none; /* Oculta o input padrão */
+}
+
+/* Estilização para os botões */
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinha os botões à direita */
+    gap: 10px; /* Espaço entre os botões */
+    margin-top: auto; /* Empurra o contêiner para o final do seu contêiner flex */
+}
+
+
+.btn-primary,
+.btn-secondary {
+    font-size: 14px; /* Reduz o tamanho do texto dos botões */
+    padding: 8px 16px; /* Ajusta o tamanho geral */
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #145d40;
+    color: #fff;
+}
+
+.btn-primary:disabled {
+    background-color: #6c757d; /* Cor do botão desativado */
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: #145d40; /* Cor ao passar o mouse */
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #eb1616; /* Cor ao passar o mouse */
+}
+
+  
+  .upload-area:hover {
+    background-color: #0ec02c56;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+
+
+.icon-container {
+  position: relative;
+}
+
+.upload-icon {
+
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        /* width: 50px; */
+        height: auto;
+  
+}
+
+.upload-label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #c4c4c4;
+  display: block;
+  margin-top: 20px; /* Adiciona margem para separar a label do ícone */
+}
+
+
+
